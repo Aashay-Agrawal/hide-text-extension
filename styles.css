@@ -1,0 +1,6 @@
+* {
+  color: transparent !important;
+}
+*::before, *::after {
+  content: '' !important;
+}

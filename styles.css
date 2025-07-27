@@ -1,6 +1,17 @@
-* {
+body,
+body * {
   color: transparent !important;
+  text-shadow: none !important;
+  opacity: 1 !important; /* Keep everything visible */
 }
-*::before, *::after {
-  content: '' !important;
+
+/* Hide textual pseudo-elements */
+body *::before,
+body *::after {
+  content: "" !important;
+}
+
+/* Specifically target text nodes using span wrapping */
+body * {
+  -webkit-text-fill-color: transparent !important;
 }

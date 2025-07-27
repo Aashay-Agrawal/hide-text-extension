@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Hide All Text (Toggle)",
-  "version": "1.1",
-  "description": "Toggle to hide/show all text on websites.",
+  "name": "Hide All Text (Opacity Toggle)",
+  "version": "1.2",
+  "description": "Toggle to hide/show all text on websites using opacity (no layout shift).",
   "permissions": ["tabs", "<all_urls>"],
   "background": {
     "scripts": ["background.js"]
